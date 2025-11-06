@@ -7,7 +7,7 @@ terraform {
   }
   backend "gcs" {
     bucket = "{{ bucket }}"
-    prefix = "terraform/state"
+    prefix = "terraform/state/lab02"
   }
 }
 
