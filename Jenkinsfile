@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        TF_VAR_gcp_project = "qwiklabs-gcp-01-de77e34aaee3"
-        TF_VAR_bucket = "tf-remote-state-student_00_3fedb7123627-21207-6653"
+        TF_VAR_gcp_project = "qwiklabs-gcp-04-092e1689570e"
+        TF_VAR_bucket = "tf-remote-state-student_00_3fedb7123627-13186-984"
         REPOSITORY = "https://github.com/kevin-pink/cicd02-starter"
         TF_VAR_pubkey_path = "${WORKSPACE}/ansible_key.pub"
     }
